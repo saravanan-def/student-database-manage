@@ -1,0 +1,20 @@
+%%sql
+create database students_db;
+
+
+%%sql
+use students_db
+
+
+%%sql
+create table students(
+	Roll_num INT PRIMARY KEY,
+	Name VARCHAR(100),
+	Age INT,
+	Grade VARCHAR(10)
+);
+
+
+%%sql
+INSERT INTO students(Roll_num,Name,Age,Grade)
+VALUES (234351,'Arun',19,1)
